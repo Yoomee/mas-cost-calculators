@@ -1,5 +1,14 @@
 class ApplicationController < ActionController::Base
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
-  protect_from_forgery with: :exception
+  # include Localisation
+
+  protect_from_forgery
+
+  def parent_template
+    'layouts/application'
+  end
+  helper_method :parent_template
+
+  def redirect_to_cost_calculators
+    redirect_to cost_calculators_path
+  end
 end
