@@ -18,8 +18,8 @@ github_auth = "ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic"
 gem 'cost_calculators', :git => "https://#{github_auth}@github.com/moneyadviceservice/cost_calculators.git"
 # gem 'cost_calculators', :path => '../cost_calculators'
 
-gem 'dough-ruby', :git => 'https://github.com/moneyadviceservice/dough.git'
-gem 'mas-development_dependencies', :git => 'git@github.com:moneyadviceservice/mas-development_dependencies'
+gem 'dough-ruby', :git => "https://#{github_auth}@github.com/moneyadviceservice/dough.git"
+gem 'mas-development_dependencies', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-development_dependencies"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
