@@ -19,20 +19,21 @@ GIT
       timecop
 
 GIT
-  remote: https://github.com/moneyadviceservice/dough.git
-  revision: a92e8b238039b03e36bedfa9956d3797b46ccb08
-  specs:
-    dough-ruby (0.1.0)
-      rails (>= 3.2)
-
-PATH
-  remote: ../cost_calculators
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/cost_calculators.git
+  revision: 58aa9606b71a1dca5a7506669cdaabcf7466cdd4
   specs:
     cost_calculators (0.0.1)
       dough-ruby
       jquery-rails
       rails (>= 3.2.19)
       sass-rails (~> 4.0.3)
+
+GIT
+  remote: https://github.com/moneyadviceservice/dough.git
+  revision: a92e8b238039b03e36bedfa9956d3797b46ccb08
+  specs:
+    dough-ruby (0.1.0)
+      rails (>= 3.2)
 
 GEM
   remote: https://rubygems.org/
