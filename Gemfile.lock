@@ -1,6 +1,7 @@
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/cost_calculators.git
-  revision: 58aa9606b71a1dca5a7506669cdaabcf7466cdd4
+  revision: 169513f97a6a66ef39f45ae9ac9518347938b1de
+  branch: prototype
   specs:
     cost_calculators (0.0.1)
       dough-ruby
@@ -9,15 +10,15 @@ GIT
       sass-rails (~> 4.0.3)
 
 GIT
-  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/dough.git
-  revision: faef30247827fae7ed0dd095e0938cf122d6ceed
+  remote: https://github.com/moneyadviceservice/dough.git
+  revision: 8022b7d97dbded481d12cd2b7b3ce6e25a21d52e
   specs:
-    dough-ruby (0.1.0)
+    dough-ruby (1.0.0)
       rails (>= 3.2)
 
 GIT
-  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/mas-development_dependencies
-  revision: b6362b833ee2e0a036ede7c28fe6312cd03c2799
+  remote: https://github.com/moneyadviceservice/mas-development_dependencies
+  revision: 29fe9da643d6b9e1c733f1c0f099976289f209aa
   specs:
     mas-development_dependencies (2.2.0)
       capybara (~> 2.1)

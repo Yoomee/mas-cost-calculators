@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 github_auth = "ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic"
-gem 'cost_calculators', :git => "https://#{github_auth}@github.com/moneyadviceservice/cost_calculators.git"
+gem 'cost_calculators', :git => "https://#{github_auth}@github.com/moneyadviceservice/cost_calculators.git", :branch => 'prototype'
 # gem 'cost_calculators', :path => '../cost_calculators'
 
 gem 'dough-ruby', :git => "https://#{github_auth}@github.com/moneyadviceservice/dough.git"
