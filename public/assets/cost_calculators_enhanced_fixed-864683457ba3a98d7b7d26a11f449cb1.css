@@ -1,0 +1,1780 @@
+@font-face {
+  font-family: "museo_sans";
+  src: url("/assets/frontend-assets/fonts/MuseoSans_300.eot");
+  src: url("/assets/frontend-assets/fonts/MuseoSans_300.eot?#iefix") format("embedded-opentype"), url("/assets/frontend-assets/fonts/MuseoSans_300.woff") format("woff"), url("/assets/frontend-assets/fonts/MuseoSans_300.ttf") format("truetype"), url("/assets/frontend-assets/fonts/MuseoSans_300.svg#svgFontName") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "museo_sans";
+  src: url("/assets/frontend-assets/fonts/MuseoSans_500.eot");
+  src: url("/assets/frontend-assets/fonts/MuseoSans_500.eot?#iefix") format("embedded-opentype"), url("/assets/frontend-assets/fonts/MuseoSans_500.woff") format("woff"), url("/assets/frontend-assets/fonts/MuseoSans_500.ttf") format("truetype"), url("/assets/frontend-assets/fonts/MuseoSans_500.svg#svgFontName") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "museo_sans";
+  src: url("/assets/frontend-assets/fonts/MuseoSans_700.eot");
+  src: url("/assets/frontend-assets/fonts/MuseoSans_700.eot?#iefix") format("embedded-opentype"), url("/assets/frontend-assets/fonts/MuseoSans_700.woff") format("woff"), url("/assets/frontend-assets/fonts/MuseoSans_700.ttf") format("truetype"), url("/assets/frontend-assets/fonts/MuseoSans_700.svg#svgFontName") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 29, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_mediaqueries.scss */
+.js-mediaquery-test:after {
+  display: none;
+  content: 'mq-xs';
+  content: 'mq-s';
+  content: 'mq-m';
+  content: 'mq-l';
+}
+
+/* line 64, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+body, .frontend-assets {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 71, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.button, .button--small, .button--inline-input, body, .frontend-assets, button {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px transparent;
+}
+
+/* line 79, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+body, .frontend-assets, .button, .button--small, .button--inline-input, input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="password"], textarea, .form__input-outline {
+  font-family: 'museo_sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* line 84, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.callout p, .intro {
+  font-family: 'museo_sans', Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* line 89, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+h1, h2, h3,
+.heading-small, h4, .callout h3, .panel__heading,
+.heading-extra-small, .validation-summary__title {
+  font-family: 'museo_sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* line 103, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  color: #61a612;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+/* line 113, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  color: #388426;
+  font-size: 28px;
+  line-height: 36px;
+  margin-top: 42px;
+  margin-bottom: 14px;
+  margin-top: 42px;
+  margin-bottom: 14px;
+}
+
+/* line 124, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+h3,
+.heading-small {
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 33px;
+  margin-bottom: 11px;
+  margin-top: 33px;
+  margin-bottom: 11px;
+  color: #61a612;
+}
+
+/* line 131, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+h4, .callout h3, .panel__heading,
+.heading-extra-small {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #4e4f4f;
+}
+
+/* line 137, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+body, .frontend-assets {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* line 142, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.global-alert__message {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 146, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+table, table > p {
+  font-size: 14px;
+  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* line 154, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.callout p {
+  font-size: 14px;
+  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* line 163, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.button {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 169, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.button--small {
+  font-size: 14px;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 178, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.button--inline-input {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* line 184, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+ol, ul {
+  font-size: 16px;
+  line-height: 22px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 192, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* line 200, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/lib/_typography.scss */
+.intro {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #6d6d6d;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+/* line 3, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 8, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+div[tabindex="-1"],
+nav[tabindex="-1"] {
+  outline: 0;
+}
+
+/* line 12, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+body, .frontend-assets {
+  color: #2e3030;
+}
+
+/* line 46, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+.editorial p {
+  margin-bottom: 1.5em;
+}
+
+/* line 52, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+b,
+strong {
+  font-weight: 500;
+}
+
+/* line 60, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+ol {
+  padding: 0 0 0 25px;
+}
+/* line 64, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+ol li {
+  margin-bottom: 12px;
+}
+
+/* line 73, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+ul {
+  margin: 12px 0 24px 0;
+  padding: 0 0 0 25px;
+}
+/* line 78, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+ul li {
+  margin-bottom: 12px;
+}
+
+/* line 91, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+a {
+  color: #1f6faa;
+  text-decoration: none;
+}
+/* line 95, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+a:visited {
+  color: #1f6faa;
+}
+/* line 100, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+a:hover, a:focus {
+  outline: none;
+  color: #1f6faa;
+  text-decoration: underline;
+}
+/* line 107, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+a[href^=tel] {
+  color: inherit;
+}
+
+/* line 112, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 13, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_forms.scss */
+input[type="text"][disabled],
+input[type="number"][disabled],
+input[type="email"][disabled],
+input[type="search"][disabled],
+input[type="password"][disabled] {
+  background-color: #d1d5d5;
+  color: #526675;
+}
+
+/* line 19, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_forms.scss */
+input[type="search"] {
+  box-sizing: border-box;
+}
+
+/* line 38, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_forms.scss */
+input[type="search"]:focus {
+  outline-offset: -1px;
+}
+
+/* line 56, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_forms.scss */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 62, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/base/_forms.scss */
+legend {
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.l-constrained, .intro, .tool-content {
+  zoom: 1;
+}
+/* line 9, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.l-constrained:before, .intro:before, .tool-content:before, .l-constrained:after, .intro:after, .tool-content:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 16, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.l-constrained:after, .intro:after, .tool-content:after {
+  clear: both;
+}
+
+/* line 1, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_form-input-focus.scss */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus,
+textarea:focus {
+  background-color: white;
+  border-color: transparent;
+}
+
+/* line 6, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_form-input-focus.scss */
+.form__input-container .form__input:focus ~ .form__input-outline {
+  background-color: white;
+  border: 2px solid #77bf24;
+  outline: none;
+}
+
+/* line 12, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_form-input-focus.scss */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus,
+textarea:focus, input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:focus,
+select:focus, .button:focus {
+  outline: 2px solid #77bf24;
+}
+
+/* line 1, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_form-input.scss */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="password"], textarea, .form__input-outline {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #6d6d6d;
+  border-radius: 0;
+  color: #2e3030;
+  display: inline-block;
+  padding: 0 6px;
+  width: 100%;
+}
+
+/* line 13, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_form-input.scss */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="password"] {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_rails_reset.scss */
+.field_with_errors {
+  display: inline;
+}
+
+/* @lintingIgnoreBegin */
+/* line 10, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_rails_reset.scss */
+.error_message {
+  display: none !important;
+}
+
+/* @lintingIgnoreEnd */
+/* line 1, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_unstyled_button.scss */
+.unstyled-button {
+  -webkit-font-smoothing: antialiased;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_unstyled_list.scss */
+.unstyled-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 11, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_unstyled_list.scss */
+.unstyled-list > li:before {
+  content: none;
+}
+
+/* line 17, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_unstyled_list.scss */
+.unstyled-list__item {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 22, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_unstyled_list.scss */
+.unstyled-list-icon:before {
+  content: none;
+}
+
+/* line 1, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_video_wrapper.scss */
+.video-wrapper + a {
+  display: block;
+}
+
+/* line 6, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_video_wrapper.scss */
+.video-wrapper,
+.editorial .video-wrapper {
+  clear: both;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin: 24px 0;
+}
+/* line 15, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_video_wrapper.scss */
+.video-wrapper iframe,
+.editorial .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_visually_hidden.scss */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* line 4, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-body {
+  min-width: 60em;
+}
+
+/* line 9, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-constrained {
+  margin: 0 auto;
+  width: 60em;
+}
+
+/* line 21, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-padded {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 35, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-1col {
+  display: inline;
+  float: left;
+  width: 96.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+}
+
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-2col-side {
+  display: inline;
+  float: left;
+  width: 96.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  display: inline;
+  float: left;
+  width: 30%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+}
+
+/* line 50, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-2col-main {
+  display: inline;
+  float: left;
+  width: 96.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  display: inline;
+  float: left;
+  width: 63.33333%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+}
+
+/* line 57, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-2col-even, .l-2col-even-right {
+  display: inline;
+  float: left;
+  width: 96.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  display: inline;
+  float: left;
+  width: 46.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+}
+
+/* line 64, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-2col-even-right {
+  float: right;
+}
+
+/* line 73, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-split-start {
+  display: inline;
+  float: left;
+  width: 46.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  float: left;
+}
+
+/* line 78, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/layout/common/_common.scss */
+.l-split-end {
+  display: inline;
+  float: left;
+  width: 46.66667%;
+  margin-left: 1.66667%;
+  margin-right: 1.66667%;
+  float: right;
+}
+
+/* line 15, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button {
+  display: inline-block;
+  zoom: 1;
+  padding: 12px 22px;
+  margin-bottom: 0;
+  line-height: inherit;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: none;
+  background: #d1d5d5;
+  border-bottom: 3px solid #929494;
+  transition: background 0.2s ease;
+  color: #2e3030;
+  cursor: pointer;
+  filter: none;
+}
+/* line 32, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button:visited {
+  color: #2e3030;
+}
+/* line 41, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button:focus, .button:hover {
+  background: #eceded;
+  border-color: #acadad;
+  color: #2e3030;
+  text-decoration: none;
+}
+/* line 48, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button:active {
+  padding-top: 9px;
+  border-bottom-color: #d1d5d5;
+  border-top: 3px solid #929494;
+}
+/* line 55, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button.is-disabled, .button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  filter: alpha(opacity=6);
+  opacity: .6;
+}
+
+/* line 65, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--primary {
+  background: #ebd520;
+  border-bottom-color: #ddae1f;
+}
+/* line 70, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--primary:focus, .button--primary:hover {
+  background: #efde4f;
+  border-color: #e6bf49;
+}
+/* line 75, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--primary:active {
+  border-bottom-color: #ebd520;
+  border-top-color: #e6bf49;
+}
+
+/* line 85, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--compact {
+  cursor: pointer;
+  padding: 12px 8px;
+  height: 52px;
+  min-width: 93px;
+  vertical-align: middle;
+}
+/* line 92, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--compact > .icon, .list--benefits .button--compact > li:before, .editorial .yes-no .button--compact > li:before,
+.list-benefits .button--compact > li:before, .list--benefits .button--compact > .no:before, .editorial .yes-no .button--compact > .no:before,
+.list-benefits .button--compact > .no:before {
+  position: relative;
+  top: 5px;
+}
+
+/* line 107, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--compact__text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 122, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--inline-input {
+  height: 30px;
+  line-height: 0;
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+/* line 136, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_button.scss */
+.button--small {
+  line-height: 1;
+  padding: 14px 16px;
+}
+
+/* line 7, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_callout.scss */
+.callout {
+  zoom: 1;
+  padding: 18px 0 0 0;
+  margin: 24px 0;
+  border-radius: 5px;
+  background-color: #f7fbec;
+}
+/* line 39, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.callout:before, .callout:after {
+  content: "";
+  display: table;
+}
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.callout:after {
+  clear: both;
+}
+/* line 17, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_callout.scss */
+.callout h3 {
+  margin: 0 18px 6px;
+  text-transform: capitalize;
+}
+/* line 23, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_callout.scss */
+.callout p {
+  margin: 0 18px 18px 18px;
+}
+/* line 28, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_callout.scss */
+.editorial .callout {
+  display: inline;
+  float: left;
+  width: 44.28571%;
+  margin-left: 2.85714%;
+  margin-right: 2.85714%;
+  float: right;
+  margin-bottom: 12px;
+}
+
+/* line 4, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_collapsable.scss */
+.js .collapsable__trigger-icon {
+  vertical-align: middle;
+}
+
+/* line 7, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_collapsable.scss */
+.js .collapsable__target {
+  display: none;
+}
+/* line 9, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_collapsable.scss */
+.js .collapsable__target.is-active {
+  display: block;
+}
+
+/* line 1, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_field-help-text.scss */
+.field-help-text {
+  margin-top: -20px;
+  margin-bottom: 36px;
+}
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_field-help-text.scss */
+.js .field-help-text {
+  position: absolute;
+  margin-top: 24px;
+}
+/* line 10, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_field-help-text.scss */
+.js .field-help-text.field-help-text--hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* line 17, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_field-help-text.scss */
+.js .field-help-text--jshide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* line 17, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form {
+  margin-top: 36px;
+}
+
+/* line 21, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__row {
+  zoom: 1;
+  margin-bottom: 36px;
+}
+/* line 39, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.form__row:before, .form__row:after {
+  content: "";
+  display: table;
+}
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.form__row:after {
+  clear: both;
+}
+
+/* line 27, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.is-errored, .validation-summary__content-container,
+.form__row--is-errored {
+  border-left: 10px solid #e06e72;
+  color: #d52b30;
+  padding-left: 10px;
+}
+/* line 38, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.is-errored input[type="text"], .validation-summary__content-container input[type="text"],
+.is-errored input[type="number"],
+.validation-summary__content-container input[type="number"],
+.is-errored input[type="email"],
+.validation-summary__content-container input[type="email"],
+.is-errored input[type="search"],
+.validation-summary__content-container input[type="search"],
+.is-errored input[type="password"],
+.validation-summary__content-container input[type="password"],
+.is-errored .form__input-container,
+.validation-summary__content-container .form__input-container,
+.is-errored .form__input-outline,
+.validation-summary__content-container .form__input-outline,
+.form__row--is-errored input[type="text"],
+.form__row--is-errored input[type="number"],
+.form__row--is-errored input[type="email"],
+.form__row--is-errored input[type="search"],
+.form__row--is-errored input[type="password"],
+.form__row--is-errored .form__input-container,
+.form__row--is-errored .form__input-outline {
+  border-color: #e06e72;
+  color: #d52b30;
+}
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.is-errored label, .validation-summary__content-container label,
+.form__row--is-errored label {
+  color: #d52b30;
+  font-weight: bold;
+}
+
+/* line 49, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__label-heading {
+  display: block;
+  padding-bottom: 12px;
+}
+
+/* line 55, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__hint {
+  font-size: 95%;
+  margin: 6px 0 0;
+}
+
+/* line 61, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__group-item {
+  display: block;
+  margin-bottom: 12px;
+}
+/* line 65, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__group-item:last-child {
+  margin-bottom: 0;
+}
+
+/* line 70, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__group--inline .form__group-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* line 75, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__group-input {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 81, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container {
+  display: table;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 90, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .form__input {
+  background: transparent;
+  border: none;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+/* line 97, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .form__input:focus {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* line 104, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .form__input-label {
+  padding-left: 5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+  z-index: 2;
+}
+
+/* line 113, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .form__input ~ .form__input-label {
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+/* line 120, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .form__input,
+.form__input-container .form__input-label,
+.form__input-container .field_with_errors {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 125, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-container .field_with_errors input {
+  display: block;
+  width: 100%;
+}
+
+/* line 130, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_form.scss */
+.form__input-outline {
+  display: block;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/* line 8, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert {
+  background: #f4f4f4;
+  zoom: 1;
+}
+/* line 39, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.global-alert:before, .global-alert:after {
+  content: "";
+  display: table;
+}
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/helpers/_clearfix.scss */
+.global-alert:after {
+  clear: both;
+}
+
+/* line 13, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert__content-container {
+  min-height: 24px;
+  padding: 12px 20px 0 35px;
+  position: relative;
+  min-height: 48px;
+  padding-left: 70px;
+}
+/* line 23, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert__content-container:before {
+  background: #77bf24;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+  width: 48px;
+}
+
+/* line 40, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert--error .global-alert__content-container:before {
+  background: #d52b30;
+}
+
+/* line 44, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert--warning .global-alert__content-container:before {
+  background: #ebd520;
+}
+
+/* line 48, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert__heading {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* line 54, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_global-alert.scss */
+.global-alert__message {
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+/* line 55, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon, .list--benefits li:before, .editorial .yes-no li:before,
+.list-benefits li:before, .list--benefits .no:before, .editorial .yes-no .no:before,
+.list-benefits .no:before {
+  background-image: url(/assets/frontend-assets/images/icon-sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  zoom: 1;
+}
+
+/* line 61, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--logo {
+  background-position: -233px -266px;
+  width: 56px;
+  height: 26px;
+}
+
+/* line 67, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--youtube {
+  background-position: -4px -70px;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 73, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--facebook {
+  background-position: -36px -70px;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 79, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--twitter {
+  background-position: -69px -70px;
+  width: 26px;
+  height: 25px;
+}
+
+/* line 85, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--globe {
+  background-position: -107px -269px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 91, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--up-arrow {
+  background-position: -308px -173px;
+  width: 8px;
+  height: 12px;
+}
+
+/* line 97, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--desktop {
+  background-position: -371px -174px;
+  width: 20px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 107, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--desktop-green {
+  background-position: -437px -174px;
+  width: 16px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 117, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--external-link {
+  background-position: -8px -170px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 123, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--speech-green {
+  background-position: -402px -72px;
+  width: 20px;
+  height: 18px;
+}
+
+/* line 129, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--tick, .list--benefits li:before, .editorial .yes-no li:before,
+.list-benefits li:before {
+  background-position: -39px -268px;
+  width: 21px;
+  height: 16px;
+}
+
+/* line 135, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--tick-s, .list-benefits--s li:before {
+  background-position: -439px -274px;
+  width: 10px;
+  height: 9px;
+}
+
+/* line 141, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--cross, .list--benefits .no:before, .editorial .yes-no .no:before,
+.list-benefits .no:before {
+  background-position: -207px -270px;
+  width: 21px;
+  height: 16px;
+}
+
+/* line 147, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--doc {
+  background-position: -108px -171px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 153, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--pdf {
+  background-position: -142px -171px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 159, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--close {
+  background-position: -140px -268px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 165, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--search {
+  background-position: -172px -268px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 171, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--search-white {
+  background-position: -271px -73px;
+  width: 20px;
+  height: 17px;
+}
+
+/* line 179, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--down-chevron {
+  background-position: -238px -76px;
+  width: 18px;
+  height: 12px;
+}
+
+/* line 185, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--up-chevron {
+  background-position: -205px -75px;
+  width: 18px;
+  height: 16px;
+}
+
+/* line 191, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--down-chevron-blue {
+  background-position: -517px -76px;
+  width: 18px;
+  height: 12px;
+}
+
+/* line 197, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--up-chevron-blue {
+  background-position: -484px -75px;
+  width: 18px;
+  height: 16px;
+}
+
+/* line 203, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--left-chevron {
+  background-position: -434px -73px;
+  width: 12px;
+  height: 19px;
+}
+
+/* line 209, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--right-chevron {
+  background-position: -453px -73px;
+  width: 12px;
+  height: 19px;
+}
+
+/* line 215, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--plus {
+  background-position: -685px -73px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 221, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--minus {
+  background-position: -742px -73px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 227, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--home {
+  background-position: -6px -263px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 233, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon.scss */
+.icon--account {
+  background-position: -531px -172px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 2, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon, .list--benefits li:before, .editorial .yes-no li:before,
+  .list-benefits li:before, .list--benefits .no:before, .editorial .yes-no .no:before,
+  .list-benefits .no:before {
+    background-size: 400px;
+  }
+
+  /* line 11, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--logo {
+    background-position: -149px -122px;
+  }
+
+  /* line 15, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--youtube {
+    background-position: -4px -4px;
+  }
+
+  /* line 19, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--facebook {
+    background-position: -36px -4px;
+  }
+
+  /* line 23, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--twitter {
+    background-position: -70px -3px;
+  }
+
+  /* line 27, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--globe {
+    background-position: -106px -105px;
+  }
+
+  /* line 31, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--up-arrow {
+    background-position: -169px -82px;
+  }
+
+  /* line 35, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--desktop {
+    background-position: -198px -84px;
+  }
+
+  /* line 39, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--desktop-green {
+    background-position: -231px -84px;
+  }
+
+  /* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--external-link {
+    background-position: -8px -53px;
+  }
+
+  /* line 47, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--speech-green {
+    background-position: -304px -57px;
+  }
+
+  /* line 51, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--tick, .list--benefits li:before, .editorial .yes-no li:before,
+  .list-benefits li:before {
+    background-position: -40px -105px;
+  }
+
+  /* line 55, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--tick-s, .list-benefits--s li:before {
+    background-position: -19px -135px;
+  }
+
+  /* line 59, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--cross, .list--benefits .no:before, .editorial .yes-no .no:before,
+  .list-benefits .no:before {
+    background-position: -205px -105px;
+  }
+
+  /* line 63, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--doc {
+    background-position: -107px -55px;
+  }
+
+  /* line 67, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--pdf {
+    background-position: -140px -55px;
+  }
+
+  /* line 71, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--close {
+    background-position: -139px -105px;
+  }
+
+  /* line 75, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--search {
+    background-position: -172px -104px;
+  }
+
+  /* line 79, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--search-white {
+    background-position: -271px -8px;
+  }
+
+  /* line 85, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--up-chevron {
+    background-position: -205px -10px;
+  }
+
+  /* line 89, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--down-chevron {
+    background-position: -238px -10px;
+  }
+
+  /* line 93, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--up-chevron-blue {
+    background-position: -334px -10px;
+  }
+
+  /* line 97, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--down-chevron-blue {
+    background-position: -368px -10px;
+  }
+
+  /* line 101, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--left-chevron {
+    background-position: -284px -107px;
+  }
+
+  /* line 105, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--right-chevron {
+    background-position: -301px -107px;
+  }
+
+  /* line 109, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--plus {
+    background-position: -339px -55px;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 115, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--minus {
+    background-position: -367px -55px;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 121, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--home {
+    background-position: -6px -100px;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 127, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_icon_2x.scss */
+  .icon--account {
+    background-position: -277px -84px;
+    width: 18px;
+    height: 16px;
+  }
+}
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_inset-block.scss */
+.inset-block {
+  margin: 12px 0 18px 0;
+  margin: 12px 0 30px 0;
+}
+
+/* line 13, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_inset-block.scss */
+.inset-block__content-container {
+  border-left: 10px solid #1f6faa;
+  padding-left: 10px;
+  display: inline-block;
+  zoom: 1;
+  padding-right: 18px;
+}
+
+/* line 20, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_inset-block.scss */
+.inset-block__text {
+  margin-bottom: 0;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_intro.scss */
+.intro {
+  clear: both;
+}
+
+/* line 11, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_intro.scss */
+.intro--constrained {
+  max-width: 700px;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list, .editorial ul {
+  list-style: none;
+}
+/* line 8, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list > li:before, .editorial ul > li:before {
+  content: '\2022';
+  color: #61a612;
+  display: block;
+  position: relative;
+  width: 0;
+  height: 0;
+  left: -20px;
+  top: -1px;
+}
+
+/* line 26, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list--benefits, .editorial .yes-no,
+.list-benefits {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 30, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list--benefits li, .editorial .yes-no li,
+.list-benefits li {
+  padding-left: 30px;
+  position: relative;
+}
+/* line 35, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list--benefits li:before, .editorial .yes-no li:before,
+.list-benefits li:before {
+  content: '';
+  color: #61a612;
+  left: 0;
+  position: absolute;
+  top: 5px;
+}
+
+/* line 51, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list-benefits--s {
+  margin-bottom: 12px;
+}
+/* line 54, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list-benefits--s li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+  padding-left: 18px;
+}
+/* line 59, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.list-benefits--s li:before {
+  top: 7px;
+}
+
+/* line 72, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_lists.scss */
+.editorial .yes-no {
+  padding-left: 0;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_pagination.scss */
+.pagination__counter {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: middle;
+  margin: 0 18px;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_panel.scss */
+.panel {
+  border-radius: 5px;
+  background-color: #edf0f0;
+  padding: 18px;
+  margin: 24px 0;
+}
+
+/* line 12, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_panel.scss */
+.panel__heading {
+  margin: 0 0 6px 0;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_smallprint.scss */
+.smallprint {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 18, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+.table-wrapper > .table > thead > tr > th,
+.table-wrapper > .table > tbody > tr > th,
+.table-wrapper > .table > tfoot > tr > th,
+.table-wrapper > .table > thead > tr > td,
+.table-wrapper > .table > tbody > tr > td,
+.table-wrapper > .table > tfoot > tr > td {
+  white-space: nowrap;
+}
+
+/* line 22, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+table {
+  text-align: left;
+  margin: 24px 0;
+}
+
+/* line 34, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+.table--full-width {
+  width: 100%;
+}
+
+/* line 39, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* line 43, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+thead > tr {
+  background-color: #e2e2e2;
+}
+
+/* line 47, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+tbody th {
+  text-align: left;
+}
+
+/* line 51, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+th, td {
+  vertical-align: top;
+  padding: 12px;
+  border-right: 1px solid #77bf24;
+  width: auto;
+}
+/* line 56, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+th:last-child, td:last-child {
+  border-right: 0;
+}
+
+/* line 62, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_tables.scss */
+th,
+th > p {
+  font-weight: 500;
+}
+
+/* line 5, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary {
+  margin: 12px 0 18px 0;
+  margin: 12px 0 30px 0;
+}
+
+/* line 13, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary__content-container {
+  display: inline-block;
+  zoom: 1;
+  background: #fae8e8;
+  padding-right: 18px;
+}
+
+/* line 20, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary__title {
+  margin: 0.75em 0;
+}
+
+/* line 25, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary__list {
+  margin: 12px 0;
+}
+/* line 28, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary__list a {
+  color: #d52b30;
+  text-decoration: none;
+}
+/* line 31, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/components/common/_validation_summary.scss */
+.validation-summary__list a:hover, .validation-summary__list a:focus {
+  text-decoration: underline;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/helpers/_pull-right.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/helpers/_tool-content.scss */
+.tool-content {
+  padding: 36px 0;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result {
+  zoom: 1;
+  padding: 18px;
+  margin: 0 0 27px;
+  border-radius: 5px;
+  background-color: #f7fbec;
+}
+
+/* line 8, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result__total {
+  font-weight: 700;
+  font-size: 40px;
+  color: #333;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* line 15, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result__append {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: -3px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list {
+  font-size: 1.125em;
+  color: #333;
+  counter-reset: li;
+  margin: 2em 0 1.5em;
+}
+/* line 6, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li {
+  position: relative;
+  margin: 0 0 30px 0;
+  padding: 8px 8px 0 2.3em;
+  list-style: none;
+  min-height: 60px;
+}
+/* line 12, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: -2px;
+  margin-left: -75px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  padding: 4px;
+  color: #333;
+  background: #ecd600;
+  font-weight: 500;
+  font-family: 'museo_sans';
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.65em;
+}
+/* line 33, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li strong {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_form.scss */
+.form__item {
+  margin-bottom: 3em;
+}
+
+/* line 5, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_form.scss */
+.form--section__input-label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #6d6d6d;
+  margin-bottom: 6px;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_help-modal.scss */
+.help-modal__trigger {
+  -webkit-appearance: none;
+  border: none;
+  background: url("/assets/cost_calculators/question-mark.png") no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+/* line 1, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options {
+  margin-top: -5px;
+  border-left: 1px solid #dae1df;
+  border-right: 1px solid #dae1df;
+  border-bottom: 1px solid #dae1df;
+  margin-bottom: 20px;
+}
+
+/* line 9, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__heading {
+  color: white;
+  background-color: #526675;
+  padding: 6px 12px;
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 30px;
+}
+/* line 17, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__heading:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: #526675 transparent transparent transparent;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+/* line 30, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 35, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list li {
+  margin: 0;
+  padding: 40px 20px;
+  border-bottom: 1px solid #dae1df;
+}
+/* line 39, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list li:last-of-type {
+  border-bottom: none;
+}
+
+/* line 2, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider,
+.slider-track {
+  position: relative;
+  height: 10px;
+  background: #ebebec;
+  border: 1px solid #aaa;
+  border-radius: .5em;
+  width: 100%;
+  clear: both;
+  margin: 18px 0 0;
+  -ms-touch-action: none;
+  margin: 1em 0 0;
+  display: block;
+}
+
+/* line 17, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range,
+.slider-selection {
+  position: absolute;
+  font-size: 7px;
+  display: block;
+  border: 0;
+  top: 0;
+  height: 100%;
+  background: #d6d6d6;
+  left: 0;
+}
+
+/* line 29, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__handle,
+.slider-handle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -12px;
+  margin-left: -1px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 1px #e3e4e6;
+  box-shadow: 0px 3px 1px #e3e4e6;
+}
+/* line 41, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__handle:focus, .ui-slider__handle:active,
+.slider-handle:focus,
+.slider-handle:active {
+  border-color: #61A61D;
+}
+
+/* line 46, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range-indicator {
+  margin-top: 15px;
+  display: inline-block;
+  float: left;
+}
+/* line 50, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range-indicator:last-of-type {
+  float: right;
+}
+
+/* line 59, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.slider.slider-horizontal {
+  margin: 1em 0 0;
+}
+/* line 62, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.slider.slider-horizontal .slider-handle {
+  margin-top: 0px;
+  opacity: 1;
+}
