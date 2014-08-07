@@ -4,7 +4,7 @@
   "private": true,
   "ignore": ["**/*"],
   "dependencies": {
-    "frontend-assets": "git@github.com:moneyadviceservice/dough#master",
+    "frontend-assets": "https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic}@github.com/moneyadviceservice/dough.git",
     "html5shiv": "*"
   }
 }
