@@ -10,14 +10,14 @@ GIT
       sass-rails (~> 4.0.3)
 
 GIT
-  remote: https://github.com/moneyadviceservice/dough.git
-  revision: 8022b7d97dbded481d12cd2b7b3ce6e25a21d52e
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/dough.git
+  revision: 8be1ff5285acf18441afe3bc208d996940215aac
   specs:
     dough-ruby (1.0.0)
       rails (>= 3.2)
 
 GIT
-  remote: https://github.com/moneyadviceservice/mas-development_dependencies
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/mas-development_dependencies
   revision: 29fe9da643d6b9e1c733f1c0f099976289f209aa
   specs:
     mas-development_dependencies (2.2.0)

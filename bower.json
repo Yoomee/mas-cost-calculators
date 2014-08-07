@@ -1,0 +1,10 @@
+{
+  "name": "mas_cost_calculators",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": ["**/*"],
+  "dependencies": {
+    "frontend-assets": "git@github.com:moneyadviceservice/dough#master",
+    "html5shiv": "*"
+  }
+}
