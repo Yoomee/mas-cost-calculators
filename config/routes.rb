@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
-  mount CostCalculators::Engine => "/"
+  scope "(:locale)", :locale => /en|cy/ do
+    mount CostCalculators::Engine => "/calculator"
+  end
+
+  root :to => redirect('/en/calculator')
+
+  # mount CostCalculators::Engine => "/"
 
 end
