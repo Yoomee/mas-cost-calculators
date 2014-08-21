@@ -1,0 +1,51 @@
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file.
+//
+// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+
+//= require_tree .
+//= require requirejs/require
+
+<%
+  def requirejs_path(asset)
+    javascript_path(asset).sub(/.js\z/, '')
+  end
+
+  requirejs_config = {
+    baseUrl: Rails.application.config.assets.prefix,
+    paths: {
+      # Translation JSON files
+      # External dependancies
+      jquery: requirejs_path('jquery/dist/jquery'),
+      eventsWithPromises: requirejs_path('eventsWithPromises/src/eventsWithPromises')
+    },
+    shim: {
+      ujs: ['jquery']
+    }
+  }
+
+  # Dough
+  requirejs_config[:paths].merge!({
+    featureDetect: requirejs_path('dough/assets/js/lib/featureDetect'),
+    componentLoader: requirejs_path('dough/assets/js/lib/componentLoader'),
+    DoughBaseComponent: requirejs_path('dough/assets/js/components/DoughBaseComponent'),
+    RangeInput: requirejs_path('dough/assets/js/components/RangeInput')
+  })
+%>
+
+
+<%=  %>
+
+// RequireJS config
+requirejs.config(<%= JSON.pretty_generate(requirejs_config) %>);
