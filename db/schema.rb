@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140826103863) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "cost_calculators_calculators", force: true do |t|
     t.string "name"
   end
@@ -23,7 +26,7 @@ ActiveRecord::Schema.define(version: 20140826103863) do
     t.integer "calculator_id"
   end
 
-  add_index "cost_calculators_expenses", ["calculator_id"], name: "index_cost_calculators_expenses_on_calculator_id"
+  add_index "cost_calculators_expenses", ["calculator_id"], name: "index_cost_calculators_expenses_on_calculator_id", using: :btree
 
   create_table "cost_calculators_partners", force: true do |t|
     t.string   "name"
@@ -49,8 +52,8 @@ ActiveRecord::Schema.define(version: 20140826103863) do
     t.datetime "updated_at"
   end
 
-  add_index "cost_calculators_users", ["email"], name: "index_cost_calculators_users_on_email", unique: true
-  add_index "cost_calculators_users", ["reset_password_token"], name: "index_cost_calculators_users_on_reset_password_token", unique: true
+  add_index "cost_calculators_users", ["email"], name: "index_cost_calculators_users_on_email", unique: true, using: :btree
+  add_index "cost_calculators_users", ["reset_password_token"], name: "index_cost_calculators_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "cost_calculators_widgets", force: true do |t|
     t.integer  "calculator_id"
@@ -59,7 +62,7 @@ ActiveRecord::Schema.define(version: 20140826103863) do
     t.datetime "updated_at"
   end
 
-  add_index "cost_calculators_widgets", ["calculator_id"], name: "index_cost_calculators_widgets_on_calculator_id"
-  add_index "cost_calculators_widgets", ["partner_id"], name: "index_cost_calculators_widgets_on_partner_id"
+  add_index "cost_calculators_widgets", ["calculator_id"], name: "index_cost_calculators_widgets_on_calculator_id", using: :btree
+  add_index "cost_calculators_widgets", ["partner_id"], name: "index_cost_calculators_widgets_on_partner_id", using: :btree
 
 end

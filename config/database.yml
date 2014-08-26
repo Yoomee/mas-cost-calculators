@@ -4,14 +4,9 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
+  adapter: postgresql
   database: cost_calculators_development
   pool: 5
-  username: root
-  password:  
-  socket: /tmp/mysql.sock
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
