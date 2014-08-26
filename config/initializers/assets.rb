@@ -2,10 +2,13 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
 Rails.application.config.assets.precompile += %w(cost_calculators_admin.css cost_calculators/admin.js cost_calculators.js )
 
 
- Rails.application.config.assets.precompile += %w(components/Toggler.js
+ Rails.application.config.assets.precompile += %w(
+                                   cost_calculators/images
+                                   components/Toggler.js
                                    html_inspector.js
                                    lib/MicroEvent.js
                                    modules/common.js

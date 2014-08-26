@@ -1,0 +1,98 @@
+<!DOCTYPE html><html><head>
+  <title>Dummy</title>
+  <link href="/assets/application.css" media="all" rel="stylesheet">
+  <script src="/assets/application.js"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/cost_calculators/admin.css" media="all" rel="stylesheet">
+  <link href="/assets/cost_calculators_admin.css" media="screen" rel="stylesheet">
+  <script src="/assets/cost_calculators.js"></script>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" media="screen" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" media="screen" rel="stylesheet">
+
+
+  <!--[if ( gte IE 7 ) & ( lte IE 8 ) & (!IEMobile) ]>
+    <script src="/assets/html5shiv/dist/html5shiv.js"></script>
+  <![endif]-->
+
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="componentLoader" src="./componentLoader.js"></script></head>
+<body>
+
+  <div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Cost Calculators</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="/en/calculator/calculators">
+              <i class="fa fa-money"></i>
+              Calculators
+            </a>
+          </li>
+          <li>
+            <a href="/en/calculator/partners">
+              <i class="fa fa-briefcase"></i>
+              Partners
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a data-method="delete" href="/en/calculator/users/sign_out" rel="nofollow">
+            <i class="fa fa-sign-out"></i>
+            Logout
+</a>          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Log in</h2>
+
+<form accept-charset="UTF-8" action="/en/calculator/users/sign_in" class="new_user" id="new_user" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+  <div><label for="user_email">Email</label><br>
+  <input autofocus="autofocus" id="user_email" name="user[email]" type="email" value=""></div>
+
+  <div><label for="user_password">Password</label><br>
+    <input autocomplete="off" id="user_password" name="user[password]" type="password"></div>
+
+    <div><input name="user[remember_me]" type="hidden" value="0"><input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1"> <label for="user_remember_me">Remember me</label></div>
+
+  <div><input name="commit" type="submit" value="Log in"></div>
+</form>
+
+  <a href="/en/calculator/users/sign_up">Sign up</a><br>
+
+  <a href="/en/calculator/users/password/new">Forgot your password?</a><br>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body></html>

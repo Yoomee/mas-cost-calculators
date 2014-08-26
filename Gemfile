@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
-# gem 'mysql2'
-gem 'pg'
+gem 'sqlite3'
+gem 'mysql2'
+# gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,3 +50,10 @@ gem 'spring',        group: :development
 # Heroku
 gem 'rails_12factor', group: :production
 gem 'byebug'
+
+gem 'cucumber-rails', group: :test, :require => false
+
+gem 'factory_girl_rails', group: :test
+
+gem 'zip-zip'
+gem 'database_cleaner'
