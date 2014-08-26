@@ -57,3 +57,4 @@ gem 'factory_girl_rails', group: :test
 
 gem 'zip-zip'
 gem 'database_cleaner'
+gem 'unicorn'
