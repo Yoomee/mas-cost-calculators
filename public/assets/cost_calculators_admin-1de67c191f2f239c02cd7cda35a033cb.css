@@ -1,0 +1,320 @@
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+form.formtastic {
+  padding: 20px 0px 0px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 7, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+.row-preview {
+  padding: 36px 60px;
+  background: url(/assets/cost_calculators/browser-desktop.png) no-repeat 0 0;
+}
+/* line 10, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+.row-preview img {
+  opacity: 0.4;
+}
+
+/* line 15, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+.expense-fields {
+  border: 1px #eee solid;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* line 22, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+ul.expense-values li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+/* line 25, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/admin/_base.css.scss */
+ul.expense-values li .close {
+  padding-left: 5px;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result {
+  zoom: 1;
+  padding: 18px;
+  margin: 0 0 27px;
+  border-radius: 5px;
+  background-color: #f7fbec;
+}
+
+/* line 8, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result__total {
+  font-weight: 700;
+  font-size: 40px;
+  color: #333;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* line 15, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_result.scss */
+.babycalc-result__append {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: -3px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_total.scss */
+.babycalc-total {
+  padding: 0.4em 0 0.6em;
+  text-align: center;
+  overflow: hidden;
+  color: #61A612;
+  font-size: 3.8em;
+  font-weight: 700;
+}
+/* line 8, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_total.scss */
+.babycalc-total:before, .babycalc-total:after {
+  content: '';
+  width: 100%;
+  border-bottom: 1px #61A612 solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 15, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_total.scss */
+.babycalc-total:before {
+  margin-left: -100%;
+}
+/* line 18, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_total.scss */
+.babycalc-total:after {
+  margin-right: -100%;
+}
+
+/* line 22, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_babycalc_total.scss */
+.babycalc-total__figure {
+  padding: 0 10px;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list {
+  font-size: 1.125em;
+  color: #333;
+  counter-reset: li;
+  margin: 2em 0 1.5em;
+}
+/* line 6, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li {
+  position: relative;
+  margin: 0 0 30px 0;
+  padding: 8px 8px 0 2.3em;
+  list-style: none;
+  min-height: 60px;
+}
+/* line 12, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: -2px;
+  margin-left: -75px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  padding: 4px;
+  color: #333;
+  background: #ecd600;
+  font-weight: 500;
+  font-family: 'museo_sans';
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.65em;
+}
+/* line 33, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_feature_list.scss */
+.featured-list li strong {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_form.scss */
+.form__item {
+  margin-bottom: 3em;
+}
+
+/* line 4, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_form.scss */
+.form--section__input-label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #6d6d6d;
+  margin-bottom: 6px;
+}
+
+/* line 11, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_form.scss */
+.babycalc__form {
+  margin-top: 0;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_help-modal.scss */
+.help-modal__trigger {
+  -webkit-appearance: none;
+  border: none;
+  background: url("/assets/cost_calculators/question-mark.png") no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_range-scale.scss */
+.range__scale {
+  text-align: center;
+}
+
+/* line 5, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_range-scale.scss */
+.range__scale--left {
+  float: left;
+}
+
+/* line 8, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_range-scale.scss */
+.range__scale--right {
+  float: right;
+}
+
+/* line 2, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_row.scss */
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 6, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_row.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 1, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options {
+  margin-top: -5px;
+  border-left: 1px solid #dae1df;
+  border-right: 1px solid #dae1df;
+  border-bottom: 1px solid #dae1df;
+  margin-bottom: 20px;
+}
+
+/* line 9, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__heading {
+  color: white;
+  background-color: #526675;
+  padding: 6px 12px;
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 30px;
+}
+/* line 17, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__heading:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: #526675 transparent transparent transparent;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+/* line 30, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 35, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list li {
+  margin: 0;
+  padding: 40px 20px;
+  border-bottom: 1px solid #dae1df;
+}
+/* line 39, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_start_options.scss */
+.start-options__list li:last-of-type {
+  border-bottom: none;
+}
+
+/* line 2, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider,
+.slider-track {
+  position: relative;
+  height: 10px;
+  background: #ebebec;
+  border: 1px solid #aaa;
+  border-radius: .5em;
+  width: 100%;
+  clear: both;
+  margin: 18px 0 0;
+  -ms-touch-action: none;
+  margin: 1em 0 0;
+  display: block;
+}
+
+/* line 17, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range,
+.slider-selection {
+  position: absolute;
+  font-size: 7px;
+  display: block;
+  border: 0;
+  top: 0;
+  height: 100%;
+  background: #d6d6d6;
+  left: 0;
+}
+
+/* line 29, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__handle,
+.slider-handle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -12px;
+  margin-left: -1px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 1px #e3e4e6;
+  box-shadow: 0px 3px 1px #e3e4e6;
+}
+/* line 41, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__handle:focus, .ui-slider__handle:active,
+.slider-handle:focus,
+.slider-handle:active {
+  border-color: #61A61D;
+}
+
+/* line 46, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range-indicator {
+  margin-top: 15px;
+  display: inline-block;
+  float: left;
+}
+/* line 50, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.ui-slider__range-indicator:last-of-type {
+  float: right;
+}
+
+/* line 59, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.slider.slider-horizontal {
+  margin: 1em 0 0;
+}
+/* line 62, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/components/page_specific/_ui-slider.scss */
+.slider.slider-horizontal .slider-handle {
+  margin-top: 0px;
+  opacity: 1;
+}
+
+/* line 4, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_admin.scss */
+legend {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}

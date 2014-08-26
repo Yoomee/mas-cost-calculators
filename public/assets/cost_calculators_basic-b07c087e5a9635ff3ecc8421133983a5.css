@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 10, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 10, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -17,7 +17,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 20, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 20, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 body {
   margin: 0;
 }
@@ -29,7 +29,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 44, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 44, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 article,
 aside,
 details,
@@ -49,7 +49,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 56, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 56, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 audio,
 canvas,
 progress,
@@ -64,7 +64,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 66, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 66, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -74,7 +74,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 77, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 77, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 [hidden],
 template {
   display: none;
@@ -85,7 +85,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 88, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 88, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 a {
   background: transparent;
 }
@@ -93,7 +93,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 97, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 97, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 a:active,
 a:hover {
   outline: 0;
@@ -104,7 +104,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 108, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 108, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -112,7 +112,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 117, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 117, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 b,
 strong {
   font-weight: bold;
@@ -121,7 +121,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 125, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 125, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 dfn {
   font-style: italic;
 }
@@ -130,7 +130,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 134, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 134, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -139,7 +139,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 143, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 143, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 mark {
   background: #ff0;
   color: #000;
@@ -148,7 +148,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 152, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 152, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 small {
   font-size: 80%;
 }
@@ -156,7 +156,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 161, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 161, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 sub,
 sup {
   font-size: 75%;
@@ -165,12 +165,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 168, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 168, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 sup {
   top: -0.5em;
 }
 
-/* line 172, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 172, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 sub {
   bottom: -0.25em;
 }
@@ -180,7 +180,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 183, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 183, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 img {
   border: 0;
 }
@@ -188,7 +188,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 191, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 191, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -198,7 +198,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 202, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 202, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 figure {
   margin: 1em 40px;
 }
@@ -206,7 +206,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 210, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 210, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -216,7 +216,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 220, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 220, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 pre {
   overflow: auto;
 }
@@ -224,7 +224,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 231, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 231, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 code,
 kbd,
 pre,
@@ -245,7 +245,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 255, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 255, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button,
 input,
 optgroup,
@@ -262,7 +262,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 265, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 265, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button {
   overflow: visible;
 }
@@ -273,7 +273,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 277, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button,
 select {
   text-transform: none;
@@ -286,7 +286,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 292, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 292, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -300,7 +300,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 302, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -309,7 +309,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 311, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -320,7 +320,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 321, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 321, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 input {
   line-height: normal;
 }
@@ -332,7 +332,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 334, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -346,7 +346,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 346, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -357,7 +357,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 356, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 356, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -372,7 +372,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 370, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 370, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -381,7 +381,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 378, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 378, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -392,7 +392,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 389, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 389, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 legend {
   border: 0;
   /* 1 */
@@ -403,7 +403,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 398, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 398, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 textarea {
   overflow: auto;
 }
@@ -412,7 +412,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 407, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 407, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 optgroup {
   font-weight: bold;
 }
@@ -422,71 +422,71 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 418, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 418, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
+/* line 424, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/normalize-css/normalize.css */
 td,
 th {
   padding: 0;
 }
 
-/* line 3, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
-body, .frontend-assets {
+/* line 3, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
+body, .dough {
   color: #555;
   font: normal 16px/1.375, "Helvetica Neue", Helvetica, Arial, serif;
 }
 
-/* line 8, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 8, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h1 {
   color: #61a612;
 }
 
-/* line 12, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 12, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h2, h3, h4, h5, h6 {
   color: #388426;
 }
 
-/* line 16, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 16, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h1 {
   font-size: 32px;
 }
 
-/* line 20, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 20, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h2 {
   font-size: 24px;
 }
 
-/* line 24, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 24, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h3 {
   font-size: 20px;
 }
 
-/* line 28, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 28, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 h4 {
   font-size: 16px;
 }
 
-/* line 32, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 32, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 a {
   color: #1f6faa;
   text-decoration: none;
 }
-/* line 36, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 36, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 a:visited {
   color: #1f6faa;
 }
-/* line 41, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 41, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 a:hover, a:focus {
   outline: none;
   color: #1f6faa;
   text-decoration: underline;
 }
 
-/* line 52, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 52, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 hr {
   border-color: #edf0f0;
   border-style: solid;
@@ -494,23 +494,23 @@ hr {
   border-bottom-width: 0;
 }
 
-/* line 60, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 60, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 th, td {
   font-size: 14px;
 }
 
-/* line 64, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 64, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 .logo {
   width: 232px;
   height: 38px;
 }
 
-/* line 69, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 69, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 .intro {
   font-size: 18px;
 }
 
-/* line 73, /Users/Woodcock/Rails/mas_cost_calculators/vendor/assets/bower_components/frontend-assets/stylesheets/basic.scss */
+/* line 73, /Users/Woodcock/Rails/cost_calculators/vendor/assets/bower_components/dough/assets/stylesheets/basic.scss */
 .smallprint {
   font-size: 14px;
 }
@@ -521,20 +521,20 @@ th, td {
  * Licensed under the Apache License v2.0
  *
  */
-/* line 8, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 8, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider {
   display: inline-block;
   vertical-align: middle;
   position: relative;
 }
 
-/* line 13, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 13, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-horizontal {
   width: 210px;
   height: 20px;
 }
 
-/* line 17, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 17, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-horizontal .slider-track {
   height: 10px;
   width: 100%;
@@ -543,20 +543,20 @@ th, td {
   left: 0;
 }
 
-/* line 24, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 24, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-horizontal .slider-selection {
   height: 100%;
   top: 0;
   bottom: 0;
 }
 
-/* line 29, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 29, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-horizontal .slider-handle {
   margin-left: -10px;
   margin-top: -5px;
 }
 
-/* line 33, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 33, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-horizontal .slider-handle.triangle {
   border-width: 0 10px 10px 10px;
   width: 0;
@@ -565,13 +565,13 @@ th, td {
   margin-top: 0;
 }
 
-/* line 40, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 40, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-vertical {
   height: 210px;
   width: 20px;
 }
 
-/* line 44, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 44, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-vertical .slider-track {
   width: 10px;
   height: 100%;
@@ -580,7 +580,7 @@ th, td {
   top: 0;
 }
 
-/* line 51, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 51, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-vertical .slider-selection {
   width: 100%;
   left: 0;
@@ -588,13 +588,13 @@ th, td {
   bottom: 0;
 }
 
-/* line 57, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 57, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-vertical .slider-handle {
   margin-left: -5px;
   margin-top: -10px;
 }
 
-/* line 61, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 61, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-vertical .slider-handle.triangle {
   border-width: 10px 0 10px 10px;
   width: 1px;
@@ -603,7 +603,7 @@ th, td {
   margin-left: 0;
 }
 
-/* line 68, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 68, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-disabled .slider-handle {
   background-image: -webkit-linear-gradient(top, #dfdfdf 0%, #bebebe 100%);
   background-image: linear-gradient(to bottom, #dfdfdf 0%, #bebebe 100%);
@@ -611,7 +611,7 @@ th, td {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdfdfdf', endColorstr='#ffbebebe', GradientType=0);
 }
 
-/* line 74, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 74, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider.slider-disabled .slider-track {
   background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #e9e9e9 100%);
   background-image: linear-gradient(to bottom, #e5e5e5 0%, #e9e9e9 100%);
@@ -620,22 +620,22 @@ th, td {
   cursor: not-allowed;
 }
 
-/* line 81, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 81, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider input {
   display: none;
 }
 
-/* line 84, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 84, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider .tooltip.hide {
   display: none;
 }
 
-/* line 87, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 87, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider .tooltip-inner {
   white-space: nowrap;
 }
 
-/* line 90, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 90, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-track {
   position: absolute;
   cursor: pointer;
@@ -648,7 +648,7 @@ th, td {
   border-radius: 4px;
 }
 
-/* line 101, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 101, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-selection {
   position: absolute;
   background-image: -webkit-linear-gradient(top, #f9f9f9 0%, whitesmoke 100%);
@@ -663,7 +663,7 @@ th, td {
   border-radius: 4px;
 }
 
-/* line 114, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 114, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-handle {
   position: absolute;
   width: 20px;
@@ -680,22 +680,22 @@ th, td {
   border: 0px solid transparent;
 }
 
-/* line 129, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 129, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-handle.round {
   border-radius: 50%;
 }
 
-/* line 132, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 132, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-handle.triangle {
   background: transparent none;
 }
 
-/* line 135, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 135, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-handle.custom {
   background: transparent none;
 }
 
-/* line 138, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators/_slider.css */
+/* line 138, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators/_slider.css */
 .slider-handle.custom::before {
   line-height: 20px;
   font-size: 20px;
@@ -703,7 +703,7 @@ th, td {
   color: #726204;
 }
 
-/* line 5, /Users/Woodcock/.rvm/gems/ruby-2.0.0-p353/bundler/gems/cost_calculators-169513f97a6a/app/assets/stylesheets/cost_calculators_basic.css.scss */
+/* line 5, /Users/Woodcock/Rails/cost_calculators/app/assets/stylesheets/cost_calculators_basic.css.scss */
 .hide {
   display: none;
 }
