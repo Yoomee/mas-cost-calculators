@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require requirejs/require
+//= require rsvp/rsvp
 
 <%
   def requirejs_path(asset)
@@ -24,7 +25,7 @@
       # External dependancies
       jquery: requirejs_path('jquery/dist/jquery'),
       eventsWithPromises: requirejs_path('eventsWithPromises/src/eventsWithPromises')
-      rsvp: requirejs_path('rsvp/rsvp'),
+      # rsvp: requirejs_path('rsvp/rsvp'),
     },
     shim: {
       ujs: ['jquery']
