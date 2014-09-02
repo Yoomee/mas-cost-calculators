@@ -1,0 +1,1 @@
+require(["jquery"],function(e){"use strict";require(["componentLoader"],function(i){i.init(e("body"))})});
