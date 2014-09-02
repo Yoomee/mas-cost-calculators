@@ -1,0 +1,30 @@
+{
+  "name": "dough",
+  "private": true,
+  "ignore": [
+    "**/*",
+    "!assets/**/*",
+    "!bower.json",
+    "!.jscsrc",
+    "!.jshintrc",
+    "!LICENSE",
+    "!README.md"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.0",
+    "eventsWithPromises": "https://github.com/jonnywyatt/eventsWithPromises.git#master",
+    "requirejs": "latest",
+    "jquery": "latest",
+    "jqueryThrottleDebounce": "https://github.com/cowboy/jquery-throttle-debounce.git"
+  },
+  "homepage": "https://github.com/moneyadviceservice/dough",
+  "_release": "64e3892218",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "64e3892218571fdb862bd78806bca400a670dbbc"
+  },
+  "_source": "git@github.com:moneyadviceservice/dough.git",
+  "_target": "master",
+  "_originalSource": "git@github.com:moneyadviceservice/dough"
+}
