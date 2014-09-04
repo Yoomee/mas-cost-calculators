@@ -1,6 +1,6 @@
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/cost_calculators.git
-  revision: c4be6d3f4df8b8285739bdc7b9fd38844a428b4a
+  revision: 15aa9fe9f4f2f9f378fb042b77b1dea83d9fc723
   branch: develop
   specs:
     cost_calculators (0.0.1)
@@ -128,7 +128,7 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
-    formtastic (2.3.0)
+    formtastic (2.3.1)
       actionpack (>= 3.0)
     formtastic-bootstrap (3.0.0)
       formtastic (>= 2.2)

@@ -11,22 +11,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140826103863) do
+ActiveRecord::Schema.define(version: 20140903091912) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "cost_calculators_calculators", force: true do |t|
     t.string "name"
+    t.text   "primary_text"
+    t.text   "secondary_text"
+    t.text   "blockquote"
   end
+
+  create_table "cost_calculators_expense_pages", force: true do |t|
+    t.text    "primary_text"
+    t.integer "calculator_id"
+  end
+
+  add_index "cost_calculators_expense_pages", ["calculator_id"], name: "index_cost_calculators_expense_pages_on_calculator_id", using: :btree
 
   create_table "cost_calculators_expenses", force: true do |t|
     t.string  "name"
     t.string  "values"
-    t.integer "calculator_id"
+    t.integer "expense_page_id"
   end
 
-  add_index "cost_calculators_expenses", ["calculator_id"], name: "index_cost_calculators_expenses_on_calculator_id", using: :btree
+  add_index "cost_calculators_expenses", ["expense_page_id"], name: "index_cost_calculators_expenses_on_expense_page_id", using: :btree
 
   create_table "cost_calculators_partners", force: true do |t|
     t.string   "name"

@@ -5,7 +5,7 @@ class CreateExpenses < ActiveRecord::Migration
       t.string :name
       t.string :values
 
-      t.references :calculator, index: true
+      t.references :expense_page, index: true
     end
   end
 end

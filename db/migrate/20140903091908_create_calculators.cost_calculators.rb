@@ -3,6 +3,9 @@ class CreateCalculators < ActiveRecord::Migration
   def change
     create_table :cost_calculators_calculators do |t|
       t.string :name
+      t.text :primary_text
+      t.text :secondary_text
+      t.text :blockquote
     end
   end
 end
