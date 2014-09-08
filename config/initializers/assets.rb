@@ -23,7 +23,22 @@ Rails.application.config.assets.precompile += %w(cost_calculators_admin.css cost
                                    translations/cy.js
                                    translations/en.js
                                    dough/assets/js/lib/*.js
-                                   dough/assets/js/components/*.js)
+                                   dough/assets/js/components/*.js
+                                   dough/assets/stylesheets/**/*.scss
+                                   rsvp/rsvp.js
+                                   dough/assets/fonts/MuseoSans_300.eot
+                                   dough/assets/fonts/MuseoSans_300.woff
+                                   dough/assets/fonts/MuseoSans_300.ttf
+                                   dough/assets/fonts/MuseoSans_300.svg
+                                   dough/assets/fonts/MuseoSans_500.eot
+                                   dough/assets/fonts/MuseoSans_500.woff
+                                   dough/assets/fonts/MuseoSans_500.ttf
+                                   dough/assets/fonts/MuseoSans_500.svg
+                                   dough/assets/fonts/MuseoSans_700.eot
+                                   dough/assets/fonts/MuseoSans_700.woff
+                                   dough/assets/fonts/MuseoSans_700.ttf
+                                   dough/assets/fonts/MuseoSans_700.svg
+                                   dough/assets/images/icon-sprite.png )
 
 
 
