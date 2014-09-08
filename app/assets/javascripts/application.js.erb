@@ -43,3 +43,12 @@
 
 // RequireJS config
 requirejs.config(<%= JSON.pretty_generate(requirejs_config) %>);
+
+
+console.log("Hello");
+require(['jquery'], function($) {
+  'use strict';
+    require(['componentLoader'], function(componentLoader) {
+      componentLoader.init($('body'));
+    });
+});
