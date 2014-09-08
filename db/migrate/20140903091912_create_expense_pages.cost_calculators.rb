@@ -2,6 +2,7 @@
 class CreateExpensePages < ActiveRecord::Migration
   def change
     create_table :cost_calculators_expense_pages do |t|
+      t.string :name
       t.text :primary_text
       t.references :calculator, index: true
     end

@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140903091912) do
   end
 
   create_table "cost_calculators_expense_pages", force: true do |t|
+    t.string  "name"
     t.text    "primary_text"
     t.integer "calculator_id"
   end
