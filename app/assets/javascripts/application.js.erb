@@ -9,9 +9,16 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
+//
 //= require requirejs/require
-//= require rsvp/rsvp
-//= require cost_calculators
+
+
+require(['jquery'], function($) {
+  'use strict';
+    require(['componentLoader'], function(componentLoader) {
+      componentLoader.init($('body'));
+    });
+});
 
 
 <%
@@ -46,10 +53,3 @@
 requirejs.config(<%= JSON.pretty_generate(requirejs_config) %>);
 
 
-console.log("Hello");
-require(['jquery'], function($) {
-  'use strict';
-    require(['componentLoader'], function(componentLoader) {
-      componentLoader.init($('body'));
-    });
-});
