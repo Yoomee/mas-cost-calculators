@@ -5,6 +5,7 @@ class CreateExpensePages < ActiveRecord::Migration
       t.string :name
       t.text :primary_text
       t.references :calculator, index: true
+      t.timestamps
     end
   end
 end

@@ -21,12 +21,23 @@ ActiveRecord::Schema.define(version: 20140903091912) do
     t.text   "primary_text"
     t.text   "secondary_text"
     t.text   "blockquote"
+    t.string "summary_cta_title_1"
+    t.string "summary_cta_title_2"
+    t.string "summary_cta_title_3"
+    t.text   "summary_cta_text_1"
+    t.text   "summary_cta_text_2"
+    t.text   "summary_cta_text_3"
+    t.string "summary_cta_link_1"
+    t.string "summary_cta_link_2"
+    t.string "summary_cta_link_3"
   end
 
   create_table "cost_calculators_expense_pages", force: true do |t|
-    t.string  "name"
-    t.text    "primary_text"
-    t.integer "calculator_id"
+    t.string   "name"
+    t.text     "primary_text"
+    t.integer  "calculator_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "cost_calculators_expense_pages", ["calculator_id"], name: "index_cost_calculators_expense_pages_on_calculator_id", using: :btree
