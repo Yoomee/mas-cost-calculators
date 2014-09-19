@@ -1,12 +1,13 @@
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/cost_calculators.git
-  revision: 547fd988c11e6cb936012a4ca239cd9f9569e09b
+  revision: 5e5ec7dfc30ff82c80018e07722e7f85b31e709c
   branch: develop
   specs:
     cost_calculators (0.0.1)
       cocoon (~> 1.2.6)
       devise (~> 3.3.0)
       dough-ruby
+      formtastic (~> 2.3.1)
       formtastic-bootstrap (~> 3.0.0)
       jquery-rails
       jquery-rails
@@ -128,8 +129,8 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
-    formtastic (3.0.0)
-      actionpack (>= 3.2.13)
+    formtastic (2.3.1)
+      actionpack (>= 3.0)
     formtastic-bootstrap (3.0.0)
       formtastic (>= 2.2)
     gherkin (2.12.2)

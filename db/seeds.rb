@@ -12,7 +12,7 @@ CostCalculators::User.create(
                            :email => "mas@yoomee.com",
                            :password => "cost1234")
 
-partner = CostCalculators::Partner.create(:name => "MAS")
+Quiz::Partner.create(:name => "MAS")
 
 calculator = CostCalculators::Calculator.create(
                   :name => "Baby costs calculator",
