@@ -1,6 +1,6 @@
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/cost_calculators.git
-  revision: 5e5ec7dfc30ff82c80018e07722e7f85b31e709c
+  revision: 275fd22c6f7ee0216aa211e80ade6f8a6740eb7e
   branch: develop
   specs:
     cost_calculators (0.0.1)

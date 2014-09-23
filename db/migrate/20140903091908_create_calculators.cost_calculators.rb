@@ -8,6 +8,8 @@ class CreateCalculators < ActiveRecord::Migration
       t.text :secondary_text
       t.text :blockquote
 
+      t.date :countdown_date
+
       #Summary screen fields
       t.string :summary_cta_title_1
       t.string :summary_cta_title_2

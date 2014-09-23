@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140903091912) do
     t.text   "primary_text"
     t.text   "secondary_text"
     t.text   "blockquote"
+    t.date   "countdown_date"
     t.string "summary_cta_title_1"
     t.string "summary_cta_title_2"
     t.string "summary_cta_title_3"
@@ -80,6 +81,11 @@ ActiveRecord::Schema.define(version: 20140903091912) do
   create_table "cost_calculators_widgets", force: true do |t|
     t.integer  "calculator_id"
     t.integer  "partner_id"
+    t.string   "primary_bg_color"
+    t.string   "primary_text_color"
+    t.string   "secondary_bg_color"
+    t.string   "secondary_text_color"
+    t.string   "button_color"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
