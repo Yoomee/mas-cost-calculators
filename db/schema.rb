@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20140903091912) do
     t.text   "secondary_text"
     t.text   "blockquote"
     t.date   "countdown_date"
+    t.string "countdown_event"
     t.string "summary_cta_title_1"
     t.string "summary_cta_title_2"
     t.string "summary_cta_title_3"
