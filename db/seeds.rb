@@ -31,7 +31,7 @@ calculator = CostCalculators::Calculator.create(
                   :summary_cta_text_3 => "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. See benefits Plan your spending Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum",
                   :summary_cta_link_3 => "http://www.bbc.com")
 
-page = calculator.expense_pages.create(:name => "after 3 months", :primary_text => "We've estimated how much your baby could cost you through to their first birthday based on the options you've chosen. Look to see what we've included in the estimated costs — you can remove anything you don't want. Use the sliders to choose how much you want to spend in each area.")
+page = calculator.expense_pages_without_countdown.create(:name => "after 3 months", :primary_text => "We've estimated how much your baby could cost you through to their first birthday based on the options you've chosen. Look to see what we've included in the estimated costs — you can remove anything you don't want. Use the sliders to choose how much you want to spend in each area.")
 
 page.expenses.create(:name => "Nappies", :values => ["250", "500", "1000"])
 page.expenses.create(:name => "Milk", :values => ["80", "350", "600"])
@@ -60,6 +60,8 @@ calculator = CostCalculators::Calculator.create(
                   :primary_text => "Use our planner to see how the different costs can quickly add up and set your budget for the Christmas period",
                   :secondary_text => "Time to get started! simply drag the sliders below to work out you budget for Christmas. Make sure your proposed costs don't come out higher than the budget you've set. If it's looking like you might overspend, check out some of out tope money-saving tips once you've finished your budget.",
                   :blockquote => "",
+                  :countdown_date => "2014-12-25",
+                  :countdown_event => "Christmas",
                   :summary_cta_title_1 => "Check what you're entitled to",
                   :summary_cta_text_1 => "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. See benefits Plan your spending Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum",
                   :summary_cta_link_1 => "http://www.google.com",
@@ -70,7 +72,7 @@ calculator = CostCalculators::Calculator.create(
                   :summary_cta_text_3 => "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. See benefits Plan your spending Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum",
                   :summary_cta_link_3 => "http://www.bbc.com")
 
-page = calculator.expense_pages.create(:name => "Christmas day", :primary_text => "We've estimated how much things might cost on Christmas day, from food and drink to presents and trimmings.")
+page = calculator.expense_pages_without_countdown.create(:name => "Christmas day", :primary_text => "We've estimated how much things might cost on Christmas day, from food and drink to presents and trimmings.")
 
 page.expenses.create(:name => "Breakfast", :values => ["5", "15", "35"])
 page.expenses.create(:name => "Lunch", :values => ["50", "125", "300"])
