@@ -36,7 +36,7 @@ page = calculator.expense_pages_without_countdown.create(:name => "after 3 month
 page.expenses.create(:name => "Nappies", :values => ["250", "500", "1000"])
 page.expenses.create(:name => "Milk", :values => ["80", "350", "600"])
 
-page = calculator.expense_pages.create(:name => "in the baby's first 3 months", :primary_text => "We've estimated how much your baby could cost you through to their first birthday based on the options you've chosen. Look to see what we've included in the estimated costs — you can remove anything you don't want. Use the sliders to choose how much you want to spend in each area.")
+page = calculator.expense_pages_without_countdown.create(:name => "in the baby's first 3 months", :primary_text => "We've estimated how much your baby could cost you through to their first birthday based on the options you've chosen. Look to see what we've included in the estimated costs — you can remove anything you don't want. Use the sliders to choose how much you want to spend in each area.")
 
 page.expenses.create(:name => "Nursery Furniture", :values => ["250", "500", "1000"])
 page.expenses.create(:name => "Buggy", :values => ["80", "350", "600"])
